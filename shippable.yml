@@ -18,9 +18,12 @@ matrix:
  exclude:
    - python: 3.2
    - python: 3.5
+   
+
 
 build:
   ci:
     - echo $IS_PULL_REQUEST
     - python --version
     - echo $A and $C and $key1
+  cache: true
