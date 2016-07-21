@@ -26,4 +26,6 @@ build:
     - echo $IS_PULL_REQUEST
     - python --version
     - echo $A and $C and $key1
+    - sleep 10m
+    
   cache: true
